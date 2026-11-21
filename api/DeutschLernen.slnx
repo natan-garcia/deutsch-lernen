@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DeutschLernen.Api/DeutschLernen.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DeutschLernen.Api.Tests/DeutschLernen.Api.Tests.csproj" />
+  </Folder>
+</Solution>

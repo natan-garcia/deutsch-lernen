@@ -424,3 +424,31 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+## --- Deutsch Lernen ---
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# .NET
+bin/
+obj/
+TestResults/
+*.user
+
+# Local data (your own resources live here, not in git)
+*.db
+*.db-shm
+*.db-wal
+data/
+
+# Env & editors
+.env
+.env.*
+!.env.example
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.log

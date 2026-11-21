@@ -1,0 +1,19 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    volumes:
+      - app-data:/data   # your own resources survive restarts and updates
+    ports:
+      - "5080:8080"
+
+  web:
+    build: ./web
+    depends_on:
+      - api
+    ports:
+      - "8080:80"
+
+volumes:
+  app-data:

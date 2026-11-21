@@ -1,0 +1,463 @@
+[
+  {
+    "id": "a1-hallo",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "Hallo",
+    "partOfSpeech": "phrase",
+    "translations": {
+      "es": "hola"
+    },
+    "example": {
+      "de": "Hallo, ich bin Anna."
+    },
+    "tags": [
+      "saludos"
+    ]
+  },
+  {
+    "id": "a1-tschuess",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "Tschüss",
+    "partOfSpeech": "phrase",
+    "translations": {
+      "es": "adiós"
+    },
+    "example": {
+      "de": "Tschüss, bis morgen!"
+    },
+    "tags": [
+      "saludos"
+    ]
+  },
+  {
+    "id": "a1-danke",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "danke",
+    "partOfSpeech": "phrase",
+    "translations": {
+      "es": "gracias"
+    },
+    "example": {
+      "de": "Danke schön!"
+    },
+    "tags": [
+      "saludos"
+    ]
+  },
+  {
+    "id": "a1-bitte",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "bitte",
+    "partOfSpeech": "phrase",
+    "translations": {
+      "es": "por favor / de nada"
+    },
+    "example": {
+      "de": "Einen Kaffee, bitte."
+    },
+    "tags": [
+      "saludos"
+    ]
+  },
+  {
+    "id": "a1-brot",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "Brot",
+    "gender": "n",
+    "plural": "Brote",
+    "partOfSpeech": "noun",
+    "translations": {
+      "es": "pan"
+    },
+    "example": {
+      "de": "Ich kaufe ein Brot."
+    },
+    "tags": [
+      "comida"
+    ]
+  },
+  {
+    "id": "a1-kaese",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "Käse",
+    "gender": "m",
+    "plural": "Käse",
+    "partOfSpeech": "noun",
+    "translations": {
+      "es": "queso"
+    },
+    "example": {
+      "de": "Der Käse ist aus der Schweiz."
+    },
+    "tags": [
+      "comida"
+    ]
+  },
+  {
+    "id": "a1-milch",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "Milch",
+    "gender": "f",
+    "partOfSpeech": "noun",
+    "translations": {
+      "es": "leche"
+    },
+    "example": {
+      "de": "Die Milch ist im Kühlschrank."
+    },
+    "tags": [
+      "comida"
+    ]
+  },
+  {
+    "id": "a1-apfel",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "Apfel",
+    "gender": "m",
+    "plural": "Äpfel",
+    "partOfSpeech": "noun",
+    "translations": {
+      "es": "manzana"
+    },
+    "example": {
+      "de": "Der Apfel ist rot."
+    },
+    "tags": [
+      "comida"
+    ]
+  },
+  {
+    "id": "a1-wasser",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "Wasser",
+    "gender": "n",
+    "partOfSpeech": "noun",
+    "translations": {
+      "es": "agua"
+    },
+    "example": {
+      "de": "Ein Glas Wasser, bitte."
+    },
+    "tags": [
+      "comida"
+    ]
+  },
+  {
+    "id": "a1-bahnhof",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "Bahnhof",
+    "gender": "m",
+    "plural": "Bahnhöfe",
+    "partOfSpeech": "noun",
+    "translations": {
+      "es": "estación de tren"
+    },
+    "example": {
+      "de": "Wo ist der Bahnhof?"
+    },
+    "tags": [
+      "transporte"
+    ]
+  },
+  {
+    "id": "a1-zug",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "Zug",
+    "gender": "m",
+    "plural": "Züge",
+    "partOfSpeech": "noun",
+    "translations": {
+      "es": "tren"
+    },
+    "example": {
+      "de": "Der Zug fährt um 8 Uhr."
+    },
+    "tags": [
+      "transporte"
+    ]
+  },
+  {
+    "id": "a1-fahrkarte",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "Fahrkarte",
+    "gender": "f",
+    "plural": "Fahrkarten",
+    "partOfSpeech": "noun",
+    "translations": {
+      "es": "billete"
+    },
+    "example": {
+      "de": "Ich brauche eine Fahrkarte nach Bern."
+    },
+    "tags": [
+      "transporte"
+    ]
+  },
+  {
+    "id": "a1-fahrrad",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "Fahrrad",
+    "gender": "n",
+    "plural": "Fahrräder",
+    "partOfSpeech": "noun",
+    "translations": {
+      "es": "bicicleta"
+    },
+    "example": {
+      "de": "Ich fahre mit dem Fahrrad zur Arbeit."
+    },
+    "tags": [
+      "transporte"
+    ]
+  },
+  {
+    "id": "a1-wohnung",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "Wohnung",
+    "gender": "f",
+    "plural": "Wohnungen",
+    "partOfSpeech": "noun",
+    "translations": {
+      "es": "piso, apartamento"
+    },
+    "example": {
+      "de": "Die Wohnung hat drei Zimmer."
+    },
+    "tags": [
+      "vivienda"
+    ]
+  },
+  {
+    "id": "a1-arbeit",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "Arbeit",
+    "gender": "f",
+    "plural": "Arbeiten",
+    "partOfSpeech": "noun",
+    "translations": {
+      "es": "trabajo"
+    },
+    "example": {
+      "de": "Die Arbeit beginnt um neun."
+    },
+    "tags": [
+      "trabajo"
+    ]
+  },
+  {
+    "id": "a1-arzt",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "Arzt",
+    "gender": "m",
+    "plural": "Ärzte",
+    "partOfSpeech": "noun",
+    "translations": {
+      "es": "médico"
+    },
+    "example": {
+      "de": "Ich gehe zum Arzt."
+    },
+    "tags": [
+      "salud"
+    ]
+  },
+  {
+    "id": "a1-familie",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "Familie",
+    "gender": "f",
+    "plural": "Familien",
+    "partOfSpeech": "noun",
+    "translations": {
+      "es": "familia"
+    },
+    "example": {
+      "de": "Meine Familie wohnt in Spanien."
+    },
+    "tags": [
+      "familia"
+    ]
+  },
+  {
+    "id": "a1-heissen",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "heissen",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "llamarse"
+    },
+    "example": {
+      "de": "Ich heisse Anna."
+    },
+    "tags": [
+      "verbos"
+    ]
+  },
+  {
+    "id": "a1-wohnen",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "wohnen",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "vivir (residir)"
+    },
+    "example": {
+      "de": "Ich wohne in Zürich."
+    },
+    "tags": [
+      "verbos"
+    ]
+  },
+  {
+    "id": "a1-kaufen",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "kaufen",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "comprar"
+    },
+    "example": {
+      "de": "Wir kaufen Brot bei der Migros."
+    },
+    "tags": [
+      "verbos"
+    ]
+  },
+  {
+    "id": "a1-sprechen",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "sprechen",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "hablar"
+    },
+    "example": {
+      "de": "Sprechen Sie Englisch?"
+    },
+    "tags": [
+      "verbos"
+    ]
+  },
+  {
+    "id": "a1-gross",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "gross",
+    "partOfSpeech": "adjective",
+    "translations": {
+      "es": "grande"
+    },
+    "example": {
+      "de": "Die Stadt ist gross."
+    },
+    "tags": [
+      "adjetivos"
+    ]
+  },
+  {
+    "id": "a1-klein",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "klein",
+    "partOfSpeech": "adjective",
+    "translations": {
+      "es": "pequeño"
+    },
+    "example": {
+      "de": "Das Zimmer ist klein."
+    },
+    "tags": [
+      "adjetivos"
+    ]
+  },
+  {
+    "id": "a1-teuer",
+    "level": "A1",
+    "variant": "de-DE",
+    "lemma": "teuer",
+    "partOfSpeech": "adjective",
+    "translations": {
+      "es": "caro"
+    },
+    "example": {
+      "de": "Die Schweiz ist teuer."
+    },
+    "tags": [
+      "adjetivos"
+    ]
+  },
+  {
+    "id": "a1-gsw-hallo",
+    "level": "A1",
+    "variant": "gsw-CH",
+    "variantOf": "a1-hallo",
+    "lemma": "Grüezi",
+    "partOfSpeech": "phrase",
+    "translations": {
+      "es": "hola (formal, suizo)"
+    },
+    "example": {
+      "de": "Grüezi mitenand!"
+    },
+    "tags": [
+      "saludos"
+    ]
+  },
+  {
+    "id": "a1-gsw-danke",
+    "level": "A1",
+    "variant": "gsw-CH",
+    "variantOf": "a1-danke",
+    "lemma": "Merci",
+    "partOfSpeech": "phrase",
+    "translations": {
+      "es": "gracias (suizo)"
+    },
+    "example": {
+      "de": "Merci vilmal!"
+    },
+    "tags": [
+      "saludos"
+    ]
+  },
+  {
+    "id": "a1-gsw-fahrrad",
+    "level": "A1",
+    "variant": "gsw-CH",
+    "variantOf": "a1-fahrrad",
+    "lemma": "Velo",
+    "gender": "n",
+    "plural": "Velos",
+    "partOfSpeech": "noun",
+    "translations": {
+      "es": "bicicleta (suizo)"
+    },
+    "example": {
+      "de": "Ich fahre mit dem Velo."
+    },
+    "tags": [
+      "transporte"
+    ]
+  }
+]

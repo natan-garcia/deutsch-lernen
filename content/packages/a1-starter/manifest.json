@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schema/manifest.schema.json",
+  "schemaVersion": 1,
+  "id": "a1-starter",
+  "name": "A1 starter",
+  "description": "Example A1 vocabulary for everyday life in Switzerland, with a few Swiss German variants to show the fallback.",
+  "author": "Deutsch Lernen",
+  "license": "CC-BY-4.0",
+  "language": "de",
+  "files": { "vocabulary": "vocabulary.json" }
+}
