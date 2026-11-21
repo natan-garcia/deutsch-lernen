@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/natan-garcia/deutsch-lernen/content/schema/vocabulary.schema.json",
+  "title": "Vocabulary items",
+  "type": "array",
+  "items": { "$ref": "#/$defs/VocabularyItem" },
+  "$defs": {
+    "LanguageVariant": { "enum": ["de-DE", "gsw-CH"] },
+    "CefrLevel": { "enum": ["A1", "A2", "B1", "B2", "C1", "C2"] },
+    "Source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "license": { "type": "string" }
+      }
+    },
+    "VocabularyItem": {
+      "type": "object",
+      "required": ["id", "level", "variant", "lemma", "partOfSpeech", "translations"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+        "level": { "$ref": "#/$defs/CefrLevel" },
+        "variant": { "$ref": "#/$defs/LanguageVariant" },
+        "variantOf": {
+          "type": "string",
+          "description": "For a regional variant (e.g. gsw-CH), the id of the standard item it replaces. Items without a regional version fall back to the standard one."
+        },
+        "lemma": { "type": "string", "minLength": 1 },
+        "gender": { "enum": ["m", "f", "n"] },
+        "plural": { "type": "string" },
+        "partOfSpeech": { "enum": ["noun", "verb", "adjective", "adverb", "phrase", "other"] },
+        "translations": {
+          "type": "object",
+          "description": "Translations by ISO 639-1 language code.",
+          "minProperties": 1,
+          "additionalProperties": { "type": "string" }
+        },
+        "example": {
+          "type": "object",
+          "required": ["de"],
+          "additionalProperties": false,
+          "properties": {
+            "de": { "type": "string" },
+            "translation": { "type": "string" }
+          }
+        },
+        "tags": { "type": "array", "items": { "type": "string" }, "default": [] },
+        "source": { "$ref": "#/$defs/Source" }
+      }
+    }
+  }
+}

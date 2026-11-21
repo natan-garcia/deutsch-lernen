@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/natan-garcia/deutsch-lernen/content/schema/manifest.schema.json",
+  "title": "Resource package manifest",
+  "description": "Metadata of a resource package: the unit that is imported, exported and shared between instances.",
+  "type": "object",
+  "required": ["schemaVersion", "id", "name", "language"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": 1, "description": "Version of the resource format. Older packages are migrated on import." },
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "name": { "type": "string", "minLength": 1 },
+    "description": { "type": "string" },
+    "author": { "type": "string" },
+    "license": { "type": "string", "description": "SPDX identifier, e.g. CC-BY-4.0." },
+    "language": { "const": "de" },
+    "files": {
+      "type": "object",
+      "description": "Relative paths of the resource files in this package, by resource type.",
+      "properties": {
+        "vocabulary": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}
